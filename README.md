@@ -197,5 +197,28 @@ head/tail - display the first/last few lines of a file or input
 head file.txt
 
 #display last 10 lines
-tail file.txt
-Add a new comment
+tail file.txt 
+
+uname -r: kernel version 
+uname -o : display os 
+
+
+ls → List files and directories in the current directory.
+ls [directory_name] → List contents of a specific directory.
+ls -l → Detailed (long) listing with permissions, owner, size, and date.
+ls -a → Show all files, including hidden ones (files starting with .).
+ls -lh → Human-readable file sizes (e.g., KB, MB).
+ls -lt → Sort by modification time, newest first.
+ls -ltr → Sort by modification time in reverse.
+ls -i → Show inode numbers of files.
+ls -R → List directory contents recursively.
+ls -S → Sort by file size, largest first. 
+
+
+
+ls -alh → Detailed listing, including hidden files, with human-readable sizes.
+ls -R /path/to/dir → Recursively list all files and directories.
+ls -lhS → Sort files by size with human-readable output.
+ls -ltu → Sort files by access time instead of modification time.
+ls -ld  : 1.To check the permissions, ownership, and timestamp of a directory without listing its contents.
+          2.Useful when troubleshooting access issues or verifying
